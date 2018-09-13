@@ -10,13 +10,23 @@ html, body {
     background-color:  #fafafa;
     padding-top: 20px;
     
+    
 }
 
 
 .logo {
     float: left;
     padding-left: 15px;
+    
 
+}
+
+.mic{
+    height: 23px;
+    float: left;
+    vertical-align: middle;
+    position: absolute;
+    padding-top: 10px;
 }
 
 .searchBorder {
@@ -29,6 +39,7 @@ html, body {
     transition: box-shadow .3s;
     float: left;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    
 
 }
 
