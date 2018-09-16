@@ -13,6 +13,10 @@ html, body {
     
 }
 
+.upperHead{
+    
+}
+
 
 .logo {
     float: left;
@@ -38,9 +42,14 @@ html, body {
     padding-left: 60px;
 }
 
+.accountBar{
+    float: right;
+}
+
 .account {
     padding-right: 30px;
     float: right;
+    
 }
 
 .bell {
@@ -93,14 +102,66 @@ html, body {
 
 }
 
+.lowerHead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 782px;
+    height: 58px;
+    
+}
+
+.leftOpt {
+    float: left;
+    padding-top: 28px;
+    padding-bottom: 13px;
+}
+
 .selectedOpt {
-    color: #777;
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    font-weight: bold;
+    padding-bottom: 10px;
     text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.toolsOpt {
+    
+    border: 1px solid transparent;
+    transition: all 0.0s;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #777;
+    
+}
+
+.toolsOpt:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    
 }
 
 .Opt {
     color: #777;
     text-decoration: none;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.Opt:hover {
+    color: #222;
+}
+
+.rightOpt{
+    float: right;
+    padding-top: 28px;
+    padding-bottom: 13px;
 }
 
 #balls {
