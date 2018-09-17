@@ -1,5 +1,3 @@
-
-
 html, body {
     margin: 0;
     padding: 0;
@@ -162,6 +160,13 @@ html, body {
     float: right;
     padding-top: 28px;
     padding-bottom: 13px;
+}
+
+.resultStats {
+    padding-left: 166px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #808080;
 }
 
 #balls {
