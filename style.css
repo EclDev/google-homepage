@@ -167,8 +167,59 @@ html, body {
     font-family: arial,sans-serif;
     font-size: 13px;
     color: #808080;
+    height: 43px;
+    width: 245px;
+    line-height: 43px;
 }
 
+.rItem{
+    line-height: 1.2;
+}
+
+.resultItemLink{
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a0dab;
+    text-decoration: none;
+    line-height: 1.2;
+
+    
+}
+.resultItemLink:hover{
+    text-decoration: underline;
+}
+.resultItemLink:visited{
+    color: #609;
+}
+
+.resultCite{
+    color: #006621;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.resultDate{
+    color: #808080;
+}
+
+.resultSummary{
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+
+.resultItems{
+    width: 632px;
+    padding-left: 150px;
+    padding-right: 264px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: arial,sans-serif;
+    color: #545454;;
+}
 #balls {
     color: rgb(20, 187, 76);
+    
 }
