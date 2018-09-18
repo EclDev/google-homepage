@@ -3,6 +3,11 @@ html, body {
     padding: 0;
 }
 
+b {
+    font-weight: 700;
+}
+
+
 .heading{
     overflow: hidden;
     background-color:  #fafafa;
@@ -174,6 +179,7 @@ html, body {
 
 .rItem{
     line-height: 1.2;
+    padding-bottom: 26px;
 }
 
 .resultItemLink{
@@ -189,9 +195,7 @@ html, body {
 .resultItemLink:hover{
     text-decoration: underline;
 }
-.resultItemLink:visited{
-    color: #609;
-}
+
 
 .resultCite{
     color: #006621;
@@ -219,6 +223,47 @@ html, body {
     font-family: arial,sans-serif;
     color: #545454;;
 }
+
+.relatedHead{
+    font-family: arial,sans-serif;
+    color: #222;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
+
+.relatedLinks{
+    font-family: arial,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1a0dab;
+    
+}
+
+.leftLinks{
+    float: left;
+    padding-right: 25px;
+    
+}
+
+.rightLinks{
+    float: left;
+}
+
+.lLink{
+    text-decoration: none;
+    color: #1a0dab;
+    
+}
+
+.lLink:hover{
+    text-decoration: underline;
+}
+
+
 #balls {
     color: rgb(20, 187, 76);
     
