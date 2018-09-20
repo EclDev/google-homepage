@@ -12,6 +12,7 @@ b {
     overflow: hidden;
     background-color:  #fafafa;
     padding-top: 20px;
+    border-bottom: 1px solid #80808021;
     
     
 }
@@ -70,6 +71,7 @@ b {
 }
 .searchBorder {
     background-color: white;
+    /*background-clip: content-box;*/
     width: 632px;
     height: 44px;
     padding-top: 3px;
@@ -261,6 +263,55 @@ b {
 
 .lLink:hover{
     text-decoration: underline;
+}
+
+
+/*gooooooogle stuff goes here*/
+
+
+.footer{
+    background-color: #fafafa;
+    height: 83px;
+    width: 851px;
+    padding-top: 80px;
+    background-clip: content-box;
+}
+
+.location{
+    padding-left: 150px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+    width: 934px;
+    height: 41px;
+}
+
+.locSpanHome {
+    color:#858591;
+    font-size: 15px;
+    float: left;
+}
+
+.locFeatures{
+    margin-top: 7px;
+    margin-left: 13px;
+    border-left: 1px solid rgb(228, 228, 228);
+    padding-left: 16px;
+    height: 25px;
+    width: 423px;
+    line-height: 25px;
+    float: left;
+}
+
+.locSpan{
+    color: #aaa;
+    
+}
+.locLink {
+    color: #858591;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
 }
 
 
