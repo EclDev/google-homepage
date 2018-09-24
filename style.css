@@ -276,10 +276,31 @@ b {
     
 }
 
-.Go{
+
+.pageSelect{    
+    
+}
+
+.GoHover{
     float: left;
     padding-top: 2px;
+}
+
+.Go{
+    float: left;
+    clear:left;
+    padding-bottom: 10px;
+    padding-top: 0px;
     padding-right: 1px;    
+}
+
+.weAreNumber1{
+    float: left;
+    clear: left;
+    
+    padding-left: 33px;
+    
+    
 }
 
 .oSelect{
@@ -292,35 +313,74 @@ b {
     float: left;
 }
 
-.gle{
+
+
+
+.oHover {
+    float: left;
+    padding-right: 1px;
+    padding-top: 12px;
+}
+
+.oSpan{
+    float: left;
+    clear: left;
+    padding-bottom: 10px;
+}
+.Num{
+    float: left;
+    clear: left;
+    padding-left: 5px;
+    text-decoration:inherit;
+    color: #1a0dab;
+}
+
+.oHover a {
+    text-decoration: none
+}
+
+.oHover a:hover{
+    text-decoration: underline;
+}
+
+.gleSpan{
+    float: left;
+    clear: left;
+    padding-bottom: 1px;
+    
+}
+
+.gleHover{
     float: left;
 }
 
+.gleHover a {
+    text-decoration: none
+}
 
-.oSpan{
+.gleHover a:hover{
+    text-decoration: underline;
+}
+
+.Next{
+    float: left;
+    clear: left;
+    padding-left: 50px;
+    color: #1a0dab;
+    text-decoration:inherit;
     
 }
-.Num{
-    
-}
 
 
-.pageSelect{    
-    padding-top: 42px;
-}
 
-.weAreNumber1{
-    padding-left: 35px;
-    padding-right: 8px;
-}
+
+
 .selectNum{
     font-size: 13px;
     padding-right: 8px;
 }
 
-.Next{
-    padding-left: 40px;
-}
+
 
 .footer{
     background-color: #f2f2f2;
