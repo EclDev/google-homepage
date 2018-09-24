@@ -265,16 +265,69 @@ b {
     text-decoration: underline;
 }
 
+.navBar{
+    padding-left: 162px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+}
 
-/*gooooooogle stuff goes here*/
+.gooooooogle{
+    
+}
 
+.Go{
+    float: left;
+    padding-top: 2px;
+    padding-right: 1px;    
+}
+
+.oSelect{
+    float: left;    
+}
+
+.o{
+    padding-top: 12px;
+    padding-right: 1px;
+    float: left;
+}
+
+.gle{
+    float: left;
+}
+
+
+.oSpan{
+    
+}
+.Num{
+    
+}
+
+
+.pageSelect{    
+    padding-top: 42px;
+}
+
+.weAreNumber1{
+    padding-left: 35px;
+    padding-right: 8px;
+}
+.selectNum{
+    font-size: 13px;
+    padding-right: 8px;
+}
+
+.Next{
+    padding-left: 40px;
+}
 
 .footer{
-    background-color: #fafafa;
+    background-color: #f2f2f2;
     height: 83px;
-    width: 851px;
-    padding-top: 80px;
     background-clip: content-box;
+    float: left;
+    width: 100%;
 }
 
 .location{
@@ -282,8 +335,9 @@ b {
     font-family: arial,sans-serif;
     font-size: 13px;
     line-height: 40px;
-    width: 934px;
     height: 41px;
+    border-bottom: 1px solid #80808021;
+    border-top: 1px solid #80808021;
 }
 
 .locSpanHome {
@@ -298,7 +352,7 @@ b {
     border-left: 1px solid rgb(228, 228, 228);
     padding-left: 16px;
     height: 25px;
-    width: 423px;
+    
     line-height: 25px;
     float: left;
 }
@@ -307,6 +361,10 @@ b {
     color: #aaa;
     
 }
+
+.locBall{
+    padding-right: 4px;
+}
 .locLink {
     color: #858591;
     padding-left: 0px;
@@ -314,8 +372,22 @@ b {
     font-size: 13px;
 }
 
-
-#balls {
-    color: rgb(20, 187, 76);
+.features{
     
+    height: 40px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+
 }
+
+.fSpan1{
+    padding-left: 150px;
+}
+
+.fLink{
+    padding-right: 27px;
+    line-height: 40px;
+}
+
+
+
