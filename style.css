@@ -71,21 +71,25 @@ b {
 }
 .searchBorder {
     background-color: white;
-    /*background-clip: content-box;*/
+    background-clip: content-box;
+    border-radius: 2px;
     width: 632px;
     height: 44px;
-    padding-top: 3px;
-    padding-bottom: 2px;
+    margin-top: 5px;
     border: none;
     transition: box-shadow .3s;
     float: left;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+
+    
     
 
 }
 
 .searchBorder:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
   }
 
 .search {
